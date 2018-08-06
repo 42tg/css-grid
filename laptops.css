@@ -1,0 +1,12 @@
+@media screen 
+  and (min-device-width: 1025px) 
+  and (-webkit-min-device-pixel-ratio: 1) { ,
+    body {
+      grid-template-areas: 
+      "header header header header"
+      "title title title title"
+      "main main . side"
+      "footer footer footer footer";
+  }
+
+}

@@ -1,0 +1,13 @@
+/* Portrait and Landscape */
+@media only screen 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        grid-template-areas: 
+        "header header header header"
+        "title title title title"
+        "side side side side"
+        "main main main main"
+        "footer footer footer footer";
+    }
+}
